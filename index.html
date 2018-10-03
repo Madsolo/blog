@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1,0">
+  <title>Madsolo's Blog</title>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <style>
+  header {
+    text-align: center;
+    background: url("tlo.jpg");
+  }
+  ul {
+    padding: 10px;
+    background: #000;
+  }
+  li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+  }
+    img {
+      width: 150px;
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+  }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+      color: white;
+    }
+      @media (max-width: 500px) {
+        h1 {
+          font-size: 36px;
+        }
+      li {
+        display: block;
+        padding: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="bomb.jpg">
+    <h1>Madsolo's Blog</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Teaching</a></li>
+      <li><a href="#">The new Fitness</a></li>
+    </ul>
+  </header>
+  <h2>Lorem ipsum</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non volutpat ipsum, sit amet fermentum dolor. Nulla tincidunt rhoncus semper. Nam dictum varius nisi, sed elementum ipsum fringilla a. Aliquam erat volutpat. Integer non sollicitudin diam, vulputate pharetra nisl. Nam varius arcu felis. Nullam consequat posuere felis eu aliquam. Aenean tempus venenatis arcu, vitae eleifend ligula pellentesque eget. Etiam tristique erat ac odio vulputate dictum. Phasellus tristique urna neque, non eleifend libero luctus sed. Curabitur iaculis congue metus, in posuere nunc feugiat interdum. Suspendisse lobortis est ac auctor euismod. In non velit finibus eros vulputate feugiat. Ut sed ipsum vel mauris eleifend tincidunt. Vestibulum vestibulum auctor metus, sed ornare purus volutpat a. Ut porttitor purus vitae tempus aliquet.</p>
+  <button>Like</button>
+  <h2>Lorem ipsum</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non volutpat ipsum, sit amet fermentum dolor. Nulla tincidunt rhoncus semper. Nam dictum varius nisi, sed elementum ipsum fringilla a. Aliquam erat volutpat. Integer non sollicitudin diam, vulputate pharetra nisl. Nam varius arcu felis. Nullam consequat posuere felis eu aliquam. Aenean tempus venenatis arcu, vitae eleifend ligula pellentesque eget. Etiam tristique erat ac odio vulputate dictum. Phasellus tristique urna neque, non eleifend libero luctus sed. Curabitur iaculis congue metus, in posuere nunc feugiat interdum. Suspendisse lobortis est ac auctor euismod. In non velit finibus eros vulputate feugiat. Ut sed ipsum vel mauris eleifend tincidunt. Vestibulum vestibulum auctor metus, sed ornare purus volutpat a. Ut porttitor purus vitae tempus aliquet.</p>
+  <button>Like</button>
+  <h2>Lorem ipsum</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non volutpat ipsum, sit amet fermentum dolor. Nulla tincidunt rhoncus semper. Nam dictum varius nisi, sed elementum ipsum fringilla a. Aliquam erat volutpat. Integer non sollicitudin diam, vulputate pharetra nisl. Nam varius arcu felis. Nullam consequat posuere felis eu aliquam. Aenean tempus venenatis arcu, vitae eleifend ligula pellentesque eget. Etiam tristique erat ac odio vulputate dictum. Phasellus tristique urna neque, non eleifend libero luctus sed. Curabitur iaculis congue metus, in posuere nunc feugiat interdum. Suspendisse lobortis est ac auctor euismod. In non velit finibus eros vulputate feugiat. Ut sed ipsum vel mauris eleifend tincidunt. Vestibulum vestibulum auctor metus, sed ornare purus volutpat a. Ut porttitor purus vitae tempus aliquet.</p>
+  <button>Like</button>
+  <h3>TEST</h3>
+  <script>
+    $("button").on("click", function() {
+      alert("clicked!")
+    });
+    $("h3").on("click", function() {
+      alert("TEST WAS CLIKED ON!")
+    });
+  </script>
+</body>
